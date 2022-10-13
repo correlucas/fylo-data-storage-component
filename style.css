@@ -60,9 +60,9 @@ body {
 /* colors  */
 :root {
   /* primary */
-  --dark-blue: hsla(234, 53%, 16%, 1);
-
-  /* neutral */
-  --gray: hsla(233, 10%, 56%, 1);
-
+  --dark-blue: hsla(205, 97%, 26%, 1);
+  --blue: hsla(205, 86%, 58%, 1);
+  --light-blue: hsla(205, 100%, 87%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --blue-gradient: linear-gradient(180deg, #C4E6FF 0%, #3EAEFE 100%);
 }

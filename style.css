@@ -266,10 +266,15 @@ span {
     border-radius: 20px 20px 50px 50px
   }
 
-  .inner-bar,
+
   .outer-bar {
     display: flex;
     width: 100%
+  }
+
+  .inner-bar {
+    display: flex;
+    width: 70%
   }
 
   .icons {
@@ -373,7 +378,7 @@ span {
 
 @keyframes loadingBar {
   0% {
-    width: 0px;
+    width: 0;
     opacity: 0
   }
 

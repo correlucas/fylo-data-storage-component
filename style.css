@@ -387,3 +387,87 @@ span {
     opacity: 1
   }
 }
+
+@media (max-width: 900px) {
+  .load {
+    -webkit-animation: slideInRight1.2s ease-in 1 .5s;
+    animation: slideInRight 2s ease;
+    transition: all ease 1.5s
+  }
+
+  .main {
+    -webkit-animation: slideInLeft1.2s ease-in 1 .5s;
+    animation: slideInLeft 2s ease;
+    transition: all ease 1.5s
+  }
+
+  @keyframes slideInRight {
+    0% {
+      transform: translateY(0px);
+      opacity: 0
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1
+    }
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateY(0px);
+      opacity: 0
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1
+    }
+  }
+
+  @-webkit-keyframes appear {
+    0% {
+      opacity: 0
+    }
+
+    40% {
+      opacity: 0
+    }
+
+    100% {
+      opacity: 1
+    }
+  }
+
+  @keyframes appear {
+    0% {
+      opacity: 0
+    }
+
+    40% {
+      opacity: 0
+    }
+
+    100% {
+      opacity: 1
+    }
+  }
+
+  .inner-bar {
+    -webkit-animation: loadingBar 1.2s ease-in 1 .5s;
+    animation: loadingBar 4s ease;
+    transition: all ease 2s
+  }
+
+  @keyframes loadingBar {
+    0% {
+      width: 0;
+      opacity: 0
+    }
+
+    100% {
+      width: 0px;
+      opacity: 1
+    }
+  }
+}

@@ -396,7 +396,7 @@ span {
   }
 
   .main {
-    -webkit-animation: slideInLeft1.2s ease-in 0s;
+    -webkit-animation: slideInLeft1.0s ease-in 0s;
     animation: slideInLeft 0s ease;
     transition: all ease 0s
   }
@@ -454,9 +454,9 @@ span {
   }
 
   .inner-bar {
-    -webkit-animation: loadingBar 1.2s ease-in 1 .5s;
-    animation: loadingBar 4s ease;
-    transition: all ease 2s
+    -webkit-animation: loadingBar 0s ease-in 0s;
+    animation: loadingBar 0s ease;
+    transition: all ease 0s
   }
 
   @keyframes loadingBar {

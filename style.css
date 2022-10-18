@@ -390,15 +390,15 @@ span {
 
 @media (max-width: 900px) {
   .load {
-    -webkit-animation: slideInRight1.2s ease-in 1 .5s;
-    animation: slideInRight 2s ease;
-    transition: all ease 1.5s
+    -webkit-animation: slideInRight 0s ease-in 0s;
+    animation: slideInRight 0s ease;
+    transition: all ease 0s
   }
 
   .main {
-    -webkit-animation: slideInLeft1.2s ease-in 1 .5s;
-    animation: slideInLeft 2s ease;
-    transition: all ease 1.5s
+    -webkit-animation: slideInLeft1.2s ease-in 0s;
+    animation: slideInLeft 0s ease;
+    transition: all ease 0s
   }
 
   @keyframes slideInRight {
